@@ -23,6 +23,8 @@
 		07CC5DB519029B57001DC35D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07CC5D9119029B57001DC35D /* UIKit.framework */; };
 		07CC5DBD19029B57001DC35D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 07CC5DBB19029B57001DC35D /* InfoPlist.strings */; };
 		07CC5DBF19029B57001DC35D /* RoadTripTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07CC5DBE19029B57001DC35D /* RoadTripTests.m */; };
+		07E91A1C1902A9DB008A5E26 /* BurnRubber.aif in Resources */ = {isa = PBXBuildFile; fileRef = 07E91A1A1902A9DB008A5E26 /* BurnRubber.aif */; };
+		07E91A1D1902A9DB008A5E26 /* CarRunning.aif in Resources */ = {isa = PBXBuildFile; fileRef = 07E91A1B1902A9DB008A5E26 /* CarRunning.aif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,8 @@
 		07CC5DBA19029B57001DC35D /* RoadTripTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RoadTripTests-Info.plist"; sourceTree = "<group>"; };
 		07CC5DBC19029B57001DC35D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		07CC5DBE19029B57001DC35D /* RoadTripTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoadTripTests.m; sourceTree = "<group>"; };
+		07E91A1A1902A9DB008A5E26 /* BurnRubber.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = BurnRubber.aif; sourceTree = "<group>"; };
+		07E91A1B1902A9DB008A5E26 /* CarRunning.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = CarRunning.aif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +91,8 @@
 		07CC5D8119029B57001DC35D = {
 			isa = PBXGroup;
 			children = (
+				07E91A1A1902A9DB008A5E26 /* BurnRubber.aif */,
+				07E91A1B1902A9DB008A5E26 /* CarRunning.aif */,
 				07CC5D9319029B57001DC35D /* RoadTrip */,
 				07CC5DB819029B57001DC35D /* RoadTripTests */,
 				07CC5D8C19029B57001DC35D /* Frameworks */,
@@ -237,8 +243,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07E91A1C1902A9DB008A5E26 /* BurnRubber.aif in Resources */,
 				07CC5DA419029B57001DC35D /* Main_iPad.storyboard in Resources */,
 				07CC5DAC19029B57001DC35D /* Images.xcassets in Resources */,
+				07E91A1D1902A9DB008A5E26 /* CarRunning.aif in Resources */,
 				07CC5DA119029B57001DC35D /* Main_iPhone.storyboard in Resources */,
 				07CC5D9819029B57001DC35D /* InfoPlist.strings in Resources */,
 			);
@@ -477,6 +485,7 @@
 				07CC5DC419029B57001DC35D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		07CC5DC519029B57001DC35D /* Build configuration list for PBXNativeTarget "RoadTripTests" */ = {
 			isa = XCConfigurationList;
@@ -485,6 +494,7 @@
 				07CC5DC719029B57001DC35D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
